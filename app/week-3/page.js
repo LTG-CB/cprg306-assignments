@@ -1,11 +1,11 @@
 import React from 'react';
-import StudentInfo from './student-info';
+import ShoppingList from './item-list';
 
 const Page = () => {
   return (
     <div>
-      <h1>Student Info</h1> 
-      <StudentInfo />
+      <h1>Shopping List</h1> 
+      <ShoppingList />
     </div>
   );
 };
